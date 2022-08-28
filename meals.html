@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am hungry.Eat Meals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center text-warning">Exploring Food</h1>
+    </header>
+    <main>
+        <!-- meal details container -->
+        <section>
+            <h2>Meal Details</h2>
+            <div id="detail-container" style="width: 25rem;">
+                
+            </div>
+        </section>
+        <!-- search field -->
+        <section class="text-center">
+            <input id="search-field" placeholder="search your food" type="text">
+            <button onclick="searchFood()" class="btn btn-primary">search</button>
+        </section>
+        <!-- serach result -->
+        <section class="container">
+            <h2>My meals</h2>
+            <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/meals.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
